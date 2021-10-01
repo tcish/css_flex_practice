@@ -153,13 +153,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-top: 60px;
 }
 
 .successor .successor__item i{
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .successor .successor__item h3{
@@ -171,4 +171,30 @@
   font-size: 1.3rem;
   color: #1c3fa8;
   margin-top: .7rem;
+}
+
+/* ---------------------------------------
+                  TIME  
+------------------------------------------ */
+.time .time__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.time .time__content img{
+  width: 60%;
+}
+
+.time .time__content .time__item{
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  margin: 30px;
+}
+
+.time .time__content .time__item h3{
+  padding: 25px;
 }
