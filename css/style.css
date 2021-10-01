@@ -64,6 +64,17 @@
 .header .head__content .head__text{
   flex: 0 0 50%;
   color: #fff;
+  animation: slideLeft 1s ease-in-out;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .header .head__content .head__text h1{
@@ -102,6 +113,17 @@
   margin-left: 2rem;
   position: relative;
   top: 5rem;
+  animation: slideRight 1s ease-in-out;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .header .head__content .head__form .form__control{
@@ -140,6 +162,17 @@
 .successor{
   margin: 100px 0;
   text-align: center;
+  animation: slideTop 1s ease-in-out;
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .successor .successor__title{
@@ -185,6 +218,7 @@
 
 .time .time__content img{
   width: 60%;
+  animation: slideLeft 1s ease-in-out;
 }
 
 .time .time__content .time__item{
@@ -193,6 +227,7 @@
   border-radius: 10px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
   margin: 30px;
+  animation: slideRight 1s ease-in-out;
 }
 
 .time .time__content .time__item h3{
