@@ -133,3 +133,42 @@
 .header .head__content .head__form .btn:hover {
   transform: scale(.95);
 }
+
+/* ---------------------------------------
+                  SUCCESSOR  
+------------------------------------------ */
+.successor{
+  margin: 100px 0;
+  text-align: center;
+}
+
+.successor .successor__title{
+  width: 45%;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.successor .successor__item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.successor .successor__item i{
+  font-size: 4rem;
+}
+
+.successor .successor__item h3{
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.successor .successor__item p{
+  font-size: 1.3rem;
+  color: #1c3fa8;
+  margin-top: .7rem;
+}
