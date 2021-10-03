@@ -323,3 +323,50 @@
 .languages .languages__content .languages__card img{
   width: 100%;
 }
+
+/* ---------------------------------------
+                    FOOTER  
+------------------------------------------ */
+.footer{
+  background: #002240;
+}
+
+.footer .footer__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  width: 80%;
+}
+
+.footer .footer__content h1{
+  color: #fff;
+  font-weight: 300;
+  /* font-size: 1.3rem; */
+}
+
+.footer .footer__content p{
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: .8rem;
+}
+
+.footer .footer__content ul{
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.footer .footer__content ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.footer .footer__content .social a{
+  margin-left: 20px;
+}
+
+.footer .footer__content .social a i{
+  color: #fff;
+}
