@@ -279,3 +279,47 @@
 .hosting .host__content img{
   width: 40%;
 }
+
+/* ---------------------------------------
+                    LANGUAGE  
+------------------------------------------ */
+.languages{
+  margin: 2rem 0;
+}
+
+.languages h2{
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.languages .languages__content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.languages .languages__content .languages__card{
+  padding: 1.7rem;
+  margin: .5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  transition: all .3s ease-in-out;
+}
+
+.languages .languages__content .languages__card:hover{
+  transform: translateY(-15px);
+}
+
+.languages .languages__content .languages__card h4{
+  margin-bottom: .8rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.languages .languages__content .languages__card img{
+  width: 100%;
+}
