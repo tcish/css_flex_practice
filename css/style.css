@@ -233,3 +233,49 @@
 .time .time__content .time__item h3{
   padding: 25px;
 }
+
+/* ---------------------------------------
+                    HOSTING  
+------------------------------------------ */
+.hosting{
+  background-color: #047aed;
+}
+
+.hosting .host__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.hosting .host__content h2{
+  font-size: 3.4rem;
+  font-weight: 300;
+}
+
+.hosting .host__content p{
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.hosting .host__content a{
+  padding: 12px 30px;
+  cursor: pointer;
+  background: #002240;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hosting .host__content a:hover{
+  transform: scale(.95);
+}
+
+.hosting .host__content img{
+  width: 40%;
+}
